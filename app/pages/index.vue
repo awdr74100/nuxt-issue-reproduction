@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { data } = useAsyncData(
-  "users",
+  "todos",
   () => {
     return $fetch("https://jsonplaceholder.typicode.com/todos");
   },
